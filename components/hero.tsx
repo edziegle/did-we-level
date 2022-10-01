@@ -50,7 +50,16 @@ export default function Hero() {
 }
 
 function answerTheQuestion() {
-    const months = ["No.", "DiD We lEvEl uP?", "Shut up.", "Actually you lost a level 😢"];
+    const months = ["No.",
+        "DId WE LEvel uP?",
+        "Shut up.",
+        "Actually you lost a level 😢",
+        "Nay.",
+        "Nope.",
+        "By no means, have you leveled up yet.",
+        "No, you have not leveled up.",
+        "An ancient red dragon has appeared and you have been slain.",
+    ];
 
     const random = Math.floor(Math.random() * months.length);
     return months[random];
