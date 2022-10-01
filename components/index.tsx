@@ -18,7 +18,6 @@ import { useState } from 'react';
 import { PageState, ConfDataContext, UserData } from '@lib/hooks/use-conf-data';
 import Layout from './layout';
 import Hero from './hero';
-import LearnMore from './learn-more';
 
 type Props = {
   defaultUserData: UserData;
