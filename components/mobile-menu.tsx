@@ -114,7 +114,7 @@ export default function Overlay() {
       </button>
       {state.isOpen && (
         <OverlayContainer>
-          <ModalDialog isOpen onClose={(...props) => state.close(...props)} />
+          {/*<ModalDialog isOpen onClose={(...props) => state.close(...props)} />*/}
         </OverlayContainer>
       )}
     </>
