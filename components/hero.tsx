@@ -56,6 +56,8 @@ function answerTheQuestion() {
         "Actually you lost a level 😢",
         "Nay.",
         "Nope.",
+        "Nah.",
+        "Ain't no way.",
         "By no means, have you leveled up yet.",
         "No, you have not leveled up.",
         "An ancient red dragon has appeared and you have been slain.",
